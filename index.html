@@ -12,12 +12,22 @@
         <h3>Informe um CPF abaixo e veja se o mesmo é valido!</h3>
     </header>
     <div class="container">
-        <div class="texto">
-            <h4>Digite apenas numeros</h4>
+        <div class="principal">
+            <div class="texto">
+                <h4>Digite apenas numeros</h4>
+            </div>
+            <div class="formulario">
+                <input type="text" placeholder="Digite o CPF a ser verificado...">
+                <button type="button">VALIDAR!</button>
+            </div>
         </div>
-        <div class="formulario">
-            <input type="text" placeholder="Digite o CPF a ser verificado...">
-            <button type="button">VALIDAR!</button>
+        <div class="validacoes">
+            <div id="sucesso" style="display: none;">
+                <p>CPF - Válido!</p>
+            </div>
+            <div id="serro" style="display: none;">
+                <p>CPF - Invalido!</p>
+            </div>
         </div>
     </div>
     <footer>
