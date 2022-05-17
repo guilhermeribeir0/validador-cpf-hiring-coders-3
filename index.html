@@ -9,6 +9,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
     </style>
+    <script src="./script.js"></script>
 </head>
 <body>
     <header>
@@ -21,15 +22,15 @@
                 <h4>Digite apenas numeros</h4>
             </div>
             <div class="formulario">
-                <input type="text" placeholder="Digite o CPF a ser verificado...">
-                <button type="button">VALIDAR!</button>
+                <input id="cpf_digitado" type="text" placeholder="Digite o CPF a ser verificado...">
+                <button type="button" onclick="validacao()">VALIDAR!</button>
             </div>
         </div>
         <div class="validacoes">
-            <div id="sucesso">
+            <div id="sucesso" style="display: none;">
                 <p>CPF - Válido!</p>
             </div>
-            <div id="serro">
+            <div id="serro" style="display: none;">
                 <p>CPF - Invalido!</p>
             </div>
         </div>
