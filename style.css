@@ -18,7 +18,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-bottom: 4px solid rgb(42, 42, 255);
+    border-bottom: 4px solid rgb(255, 150, 12);
 }
 
 header h1 {
@@ -29,9 +29,10 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-top: 20px;
     width: auto;
-    height: 400px;
+    height: 600px;
 }
 
 .container .principal {
@@ -42,17 +43,39 @@ header h1 {
 } 
 
 .container .principal .texto {
+    margin-bottom: 10px;
     font-size: 24px;
     font-weight: 100;
 }
 
 .container .principal .formulario input{
-    font-size: 20px;
+    font-size: 18px;
     width: 400px;
-    padding: 4px;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .container .principal .formulario button{
-    font-size: 20px;
-    padding: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    background-color: orange;
+    color: black;
+    border-radius: 8px;
+}
+
+.container .validacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 40px;
+    border-top: 6px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
