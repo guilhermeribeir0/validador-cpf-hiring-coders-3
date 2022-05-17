@@ -6,12 +6,14 @@
 body {
     background-color: rgb(22, 22, 22);
     color: white;
+    font-family: 'Kanit', sans-serif;
 }
 
 header {
-    margin: 20px 0px 20px 0px;
     width: auto;
     height: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,4 +23,36 @@ header {
 
 header h1 {
     font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: auto;
+    height: 400px;
+}
+
+.container .principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.container .principal .texto {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.container .principal .formulario input{
+    font-size: 20px;
+    width: 400px;
+    padding: 4px;
+}
+
+.container .principal .formulario button{
+    font-size: 20px;
+    padding: 4px;
 }
