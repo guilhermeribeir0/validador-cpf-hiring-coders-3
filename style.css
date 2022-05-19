@@ -104,3 +104,34 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 540px ) {
+    header h1 {
+        font-size: 34px;
+    }
+
+    header h3 {
+        font-size: 18px;
+    }
+    
+    .container {
+        height: 560px;
+    }
+
+    .container .principal .texto {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 80;
+    }
+
+    .container .principal .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .principal .formulario button{
+        margin-top: 20px;
+    }
+}
